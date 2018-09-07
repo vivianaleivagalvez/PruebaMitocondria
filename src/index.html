@@ -1,0 +1,52 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+        <script type="text/javascript" src="http://www.bci.cl/common/include/valores.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                        <img src="http://indicadoresdeldia.cl/webservice/indicadores.json" alt="" style="max-width: 24px; max-height: 24px;">
+               
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <!-- Elementos generados a partir del JSON -->
+            <main id="items" class="col-sm-8 row"></main>
+            <!-- Carrito -->
+            <aside class="col-sm-4">
+                <div style="background-image: url('https://media.istockphoto.com/photos/business-man-on-stock-market-financial-trade-indicator-background-man-picture-id859944790'); max-height: 200px; width: 438px;">
+                    <span style="color: white; background: black;" id="uf"></span></br>
+                    <span style="color: white; background: black;" id="euro"></span></br>
+                    <span style="color: white; background: black;" id="dolar"></span></br>
+                    <span style="color: white; background: black;" id="utm"></span>
+                </div>
+                <h2>Carrito</h2>
+                <!-- Elementos del carrito -->
+                <ul id="carrito" class="list-group"></ul>
+                <hr>
+                <!-- Precio total -->
+            
+                <p class="text-right">Total:
+                    $<span id="total"></span></p>
+            </aside>
+        </div>
+    </div>
+</body>
+
+</html>
