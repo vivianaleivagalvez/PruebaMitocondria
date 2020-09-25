@@ -2,12 +2,12 @@
   "name": "prueb",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "viviana-leiva.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node viviana-leiva"
   },
-  "author": "vivianaLeiva",
+  "author": "jaimetoqu",
   "license": "ISC",
   "dependencies": {
     "body-parser": "1.17.2",

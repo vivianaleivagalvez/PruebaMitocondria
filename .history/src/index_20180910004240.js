@@ -11,10 +11,10 @@ window.onload = function () {
         g('euro').innerHTML = "Euro:" + valor(euro);
         g('dolar').innerHTML = "Dolar:" + valor(dolar);
         g('utm').innerHTML = "UTM:" + valor(utm);
+        console.log(arrValores)
     }
 
     // Variables
-
     let baseDeDatos = [
         {
             id: 1,
